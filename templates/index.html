@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Word Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="layout" class="container">
+        <h1>Next Word Prediction</h1>
+
+        <textarea id="inputText" placeholder="Start typing..." rows="4" cols="50"></textarea>
+
+        <select id="style">
+            <option value="casual">Casual</option>
+            <option value="formal">Formal</option>
+            <option value="technical">Technical</option>
+            <option value="email">Email</option>
+        </select>
+
+        <div id="predictions"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#predictions {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.prediction {
+    padding: 5px;
+    margin: 2px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.prediction:hover {
+    background-color: #f0f0f0;
+}
+
+.casual-layout {
+    background-color: #e0f7fa;
+}
+
+.formal-layout {
+    background-color: #f1f8e9;
+}
+
+.technical-layout {
+    background-color: #f9fbe7;
+}
+
+.email-layout {
+    background-color: #e8f5e9;
+}
